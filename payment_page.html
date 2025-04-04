@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="#">
+        <h1 class="logo">
+            <a href="main.html"><img src="" alt="메인로고"></a>
+        </h1>
+
+        <div class ="main-text">
+        <h2>스터디룸이름</h1>
+        <h3>소개:모두를 위한 공간</h2>
+        </div>
+
+        <div class="header-bottom">
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="#">오시는길</a></li>
+                <li><a href="reservation.html">예약</a></li>
+                <li><a href="mypage.html">이용안내</a></li>
+                <li><a href="support.html">고객지원</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="header-right-login"><a></a></div>
+    </header>
+
+        <!-- 메인 콘텐츠 영역 -->
+        <main>
+            <div class="main-text"><h2>결제 페이지</h2></div>
+            <section class="user-info">
+                <!--fieldset 추가?-->
+                <h2>예약자 정보</h2>
+                <form>
+                    <label for="name">성함</label>
+                    <input id="name" type="text" name="name">
+                    <label for="account">연락처</label>
+                    <input id="account" type="text" name="account">
+                    <label for="mail">이메일</label>
+                    <input id="mail" type="text" name="mail">
+                    <label for="purpose">사용 목적</label>
+                    <input id="purpose" type="text" name="purpose">
+                </form>
+            </section>
+            <section class="reservation&payment-info">
+                <h2>결제 정보</h2>
+                <form>
+                    <!--예약 페이지 데이터를 자바 스크립트를 이용해서 가져올 것 같음. 그러므로 수정 대상-->
+                    <label>예약 날짜</label>
+                    <label>room 정보</label>
+                    <label>시간</label>
+                    <label>인원</label>
+                    <label>결제예정금액</label>
+                </form>
+            </section>
+            <section class="load-nextstep">
+                <h2>결제 방식</h2>
+                <form>
+                    <table>
+                    </table>
+                </form>
+            </section>
+            <!-- 각 페이지별 개별 콘텐츠가 들어가는 부분 -->
+        </main>
+    
+        <!-- 푸터 영역 -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 스터디룸 예약 시스템</p>
+                <ul>
+                    <li><a href="about.html">사업체 소개</a></li>
+                    <li><a href="support.html">고객지원</a></li>
+                    <li><a href="map.html">오시는 길</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</body>
+</html>
